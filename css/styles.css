@@ -1,0 +1,451 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import "https://fonts.googleapis.com/css?family=Indie+Flower";
+.allPetsContainer {
+  background-color: white;
+  position: absolute;
+  top: 21%;
+  left: 3.5%;
+  right: 0;
+  margin-left: 1.5%;
+  margin-right: 5%;
+  padding-top: 1%; }
+
+.col-1-4,
+.col-3-12 {
+  width: 22%;
+  margin: 5% 1% 1%;
+  text-align: center; }
+
+.dogpic4 {
+  width: 11em;
+  /* 95/16 */
+  height: 6em;
+  margin-left: 5%; }
+
+.pupName {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: #675B65;
+  margin-left: 10%; }
+
+.pupDetails {
+  border: 1px solid white;
+  background-color: #675B65;
+  font-family: sans-serif;
+  color: white;
+  height: 25px;
+  width: 90px; }
+
+/*
+  Simple Grid
+  Project Page - http://thisisdallas.github.com/Simple-Grid/
+  Author - Dallas Bass
+  Site - http://dallasbass.com
+*/
+.grid:after,
+[class*='col-'],
+[class*='grid'],
+[class*='mobile-'] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  padding-right: 20px;
+  /* column-space */ }
+
+[class*='col-'] [class*='col-']:last-child {
+  padding-right: 0; }
+
+.grid {
+  width: 100%;
+  max-width: 1140px;
+  min-width: 748px;
+  /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
+  margin: 0 auto;
+  overflow: hidden; }
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.grid-pad {
+  padding-top: 20px;
+  padding-left: 20px;
+  /* grid-space to left */
+  padding-right: 0;
+  /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */ }
+
+@media handheld, only screen and (max-width: 767px) {
+  .grid {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    /* grid-space to left */
+    padding-right: 10px;
+    /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */ }
+
+  [class*='col-'] {
+    width: auto;
+    float: none;
+    margin: 10px 0;
+    padding-left: 0;
+    padding-right: 10px;
+    /* column-space */ }
+
+  [class*='col-'] [class*='col-'] {
+    padding-right: 0; }
+
+  /* Mobile Layout */
+  [class*='mobile-col-'] {
+    float: left;
+    margin: 0 0 10px;
+    padding-left: 0;
+    padding-right: 10px;
+    /* column-space */
+    padding-bottom: 0; }
+
+  .hide-on-mobile {
+    display: none !important;
+    width: 0;
+    height: 0; } }
+main {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36em;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+  main:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.continue-browsing {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  position: relative;
+  top: 2.5em;
+  left: 2%;
+  text-decoration: none;
+  color: #E8E5E0; }
+
+.pet-profile-pic,
+.continue-browsing {
+  font-size: 1.35em; }
+
+.detail-pet-name {
+  font-size: 2.5em; }
+
+.detail-pet-price {
+  padding: .5em 0 .5em 0;
+  font-size: 1.5em; }
+
+p {
+  line-height: 1.75em;
+  padding-bottom: 2em;
+  font-weight: 300; }
+
+.fa {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  position: relative;
+  left: 2%; }
+
+button {
+  width: 10em;
+  height: 3em;
+  background-color: #E8E5E0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.05em; }
+
+.pet-profile-pic {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-top: 2.5em; }
+
+.pet-summary {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  margin: -27% 0 0 53.5%;
+  color: #000; }
+
+.pet-details {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  margin: -7% 0 0 53.5%; }
+  .pet-details .details-heading {
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 0 2.5em 0 0; }
+  .pet-details .line {
+    content: "";
+    height: 1px;
+    width: 65%;
+    background-color: #E8E5E0;
+    position: relative;
+    top: 1.75em; }
+
+main {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36em;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+  main:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.couch-h1 {
+  font-size: 1.75em;
+  margin: 1em 0 0 1.07em; }
+
+.couch-pet-info {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+
+.pet-couch-pic {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  float: left;
+  margin-top: 2.5em; }
+
+.couch-pet-name {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  font-size: 1.75em; }
+
+.couch-pet-price {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  position: relative;
+  top: .35em;
+  right: 1em;
+  font-size: 1.25em; }
+
+.couch-days {
+  position: relative;
+  top: .35em;
+  right: 10%;
+  font-size: 1.25em; }
+
+.cart-details {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline-block;
+  margin: 6.5% 0 0 5%; }
+
+.cart-num-days {
+  position: relative;
+  top: .35em;
+  right: 21%;
+  font-size: 1.25em; }
+
+input {
+  width: 2.15em;
+  margin-left: .25em;
+  font-size: .75em; }
+
+.fa-times {
+  position: relative;
+  bottom: .45em;
+  left: 60%;
+  cursor: pointer; }
+
+.checkout-pad {
+  position: absolute;
+  right: 5%;
+  z-index: 0; }
+
+.checkout-total {
+  position: absolute;
+  top: 42%;
+  right: 10.5%;
+  font-size: 1.5em;
+  line-height: 1.6em; }
+
+.checkout-button {
+  width: 5em;
+  height: 1.5em;
+  border-radius: 5px;
+  position: absolute;
+  top: 115%;
+  right: -20.5%;
+  cursor: pointer;
+  font-size: .85em; }
+
+.invoiceContainer {
+  position: absolute;
+  left: 8%;
+  width: 83%;
+  top: 25%;
+  height: 80%;
+  background-color: rgba(137, 118, 124, 0.6);
+  border: 1px solid white;
+  padding: 5px; }
+
+.details {
+  width: 90%;
+  position: relative;
+  right: 4.5%;
+  text-align: center;
+  color: #fff; }
+
+.details th {
+  font-size: 1.75em;
+  text-decoration: underline;
+  color: #fff; }
+
+.details td {
+  font-size: 1.35em;
+  color: #fff;
+  padding-top: 1.15em; }
+
+.invoiceCongrats {
+  color: white;
+  margin: 1em auto 0;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  width: 85%; }
+
+.invoicetext {
+  color: white;
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: 21px;
+  padding: 10px;
+  width: 100%; }
+
+.invoiceOverlay {
+  width: 100%;
+  height: 20%;
+  top: 30%;
+  left: 4.5%;
+  right: 50%; }
+
+.receipt-total {
+  position: relative;
+  left: 50%; }
+
+.addPetForm {
+  position: absolute;
+  width: 35%;
+  height: 60%;
+  left: 50%;
+  top: 20.75%;
+  background-color: white;
+  bottom: 50%;
+  padding-left: 10%;
+  padding-top: 5%; }
+
+input {
+  height: 2.25em;
+  width: 17em;
+  border-radius: .5em;
+  margin-bottom: .5em; }
+
+.schnauzeroverlay {
+  width: 50%;
+  height: 31.25em; }
+
+.details {
+  color: #675b65;
+  padding-left: 3em; }
+
+.addTitle {
+  font-family: sans-serif;
+  color: black;
+  font-size: 45px; }
+
+.titlePaw {
+  color: #89767C;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 25%;
+  left: 20%; }
+
+.savePet {
+  background-color: #89767C;
+  margin-left: 10%;
+  height: 4em; }
+
+.puppyoverlay {
+  width: 100%;
+  top: 30%;
+  left: 4.5%; }
+
+.homeBox {
+  border: 4px solid #fff;
+  padding: 2%;
+  margin-top: 0%;
+  margin-right: 80%;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  bottom: 65%;
+  width: 10%;
+  font-family: sans-serif; }
+
+.homeBox2 {
+  border: 4px solid #fff;
+  padding: 2%;
+  margin-top: 0%;
+  margin-right: 80%;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  left: 32%;
+  bottom: 65%;
+  width: 10%;
+  font-family: sans-serif; }
+
+body {
+  background-color: #B69783;
+  padding: 5%; }
+  body a {
+    color: #fff; }
+
+header {
+  background-color: #000;
+  font-family: sans-serif;
+  color: #fff;
+  width: 100%;
+  height: 4em;
+  padding-bottom: 2em; }
+  header li {
+    display: inline-block;
+    padding: .75em 0 0 1em; }
+  header .cart {
+    margin-left: 10%; }
+
+.headerName {
+  font-family: "Indie Flower";
+  font-size: 60px; }
+
+/*# sourceMappingURL=styles.css.map */
